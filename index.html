@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <title>
+        Currency Converter
+    </title>
+</head>
+
+
+<body>
+    <h1>
+        Currency Converter
+    </h1>
+
+    <h3>
+        Chose a currency to convert.
+    </h3>
+
+
+
+
+    <form>
+        <label for="coin">FROM:</label>
+        <select id="coin" name="coin">
+            <option value="euro">Euro</option>
+            <option value="dollar">US Dollar</option>
+            <option value="pound">Pound</option>
+            <option value="yen">Yen</option>
+            <option value="real">Real</option>
+        </select>
+
+        <label for="coinC">TO:</label>
+        <select id="coinC" name="coinC">
+            <option value="euro">Euro</option>
+            <option value="dollar">US Dollar</option>
+            <option value="pound">Pound</option>
+            <option value="yen">Yen</option>
+            <option value="real">Real</option>
+        </select>
+
+        <label>
+            <br> <br> <br> Amuount to convert:</label>
+        <input type="number" id="amount">
+
+        <button type="button" onclick="convert()">Submit</button>
+
+        <script src="script.js"></script>
+
+    </form>
+
+
+    <p id="message"></p>
+    <p id="result"></p>
+</body>
+
+</html>
