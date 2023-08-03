@@ -1,10 +1,11 @@
 var dict = {
-    "euro": 1,
-    "dollar": 1.09,
-    "real": 5.35,
-    "pound": 0.86,
-
-
+    "Euro": 1,
+    "US Dollar": 1.09,
+    "Real": 5.35,
+    "Pound": 0.86,
+    "Yen": 155.68,
+    "Australian dollar": 1.67,
+    "Canadian dollar": 1.46
 }
 
 
